@@ -69,6 +69,7 @@ li {
 
 .content {
     background-color: turquoise;
+    border-radius: 10px;
     float: left;
     color: #000;
     overflow: auto;
@@ -81,4 +82,21 @@ li {
 .mail {
     color: green;
     text-decoration: none;
+}
+
+.bottom {
+    font-family: 'Megrim', cursive;
+    border: 4px solid lightblue;
+    border-radius: 30px 15px;
+    align-content: center;
+    font-size: 25px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px;
+    position: fixed;
+    padding: 25px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
 }

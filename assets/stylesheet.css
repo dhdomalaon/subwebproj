@@ -93,7 +93,7 @@ li {
     overflow: hidden;
     display: inline-block;
     margin: 0px;
-    position: fixed;
+    position: relative;
     padding: 25px;
     bottom: 0px;
     left: 0px;

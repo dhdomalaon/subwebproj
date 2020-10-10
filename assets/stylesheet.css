@@ -88,15 +88,21 @@ li {
     font-family: 'Megrim', cursive;
     border: 4px solid lightblue;
     border-radius: 30px 15px;
-    align-content: center;
     font-size: 25px;
     overflow: hidden;
-    display: inline-block;
     margin: 0px;
-    position: absolute;
-    padding: 25px;
+    padding: 15px;
     bottom: 0px;
     left: 0px;
     right: 0px;
+    position: static;
     background-color: black;
+}
+
+.disqus {
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    right: 50px;
+    position: static;
 }

@@ -6,6 +6,21 @@ body {
     margin: 0px;
 }
 
+footer {
+    display: inline-block;
+    position: static;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Megrim', cursive;
+    font-size: 25px;
+    width: 100%;
+}
+
 h1 {
     font-family: 'Megrim', cursive;
     font-size: 50px;
@@ -84,25 +99,10 @@ li {
     text-decoration: none;
 }
 
-.bottom {
-    font-family: 'Megrim', cursive;
-    border: 4px solid lightblue;
-    border-radius: 30px 15px;
-    font-size: 25px;
-    overflow: hidden;
-    margin: 0px;
-    padding: 15px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    position: static;
-    background-color: black;
-}
+
 
 .disqus {
     margin: 10px;
     padding: 10px;
-    width: 70%;
-    right: 50px;
-    position: static;
+    position: relative;
 }
